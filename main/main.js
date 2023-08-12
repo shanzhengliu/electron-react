@@ -18,6 +18,6 @@ app.whenReady().then(() => {
     })
 })
 
-app.on('window-all-closed', function () {
-    if (process.platform !== 'darwin') app.quit()
-})
+// app.on('window-all-closed', function () {
+//     if (process.platform !== 'darwin') app.quit()
+// })
